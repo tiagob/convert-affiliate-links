@@ -1,0 +1,37 @@
+{
+  "name": "convert-affiliate-links",
+  "version": "0.1.0",
+  "description": "Script to convert Amazon to Bookshop.org affiliate links.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tiagob/convert-affiliate-links.git"
+  },
+  "license": "MIT",
+  "private": true,
+  "bin": {
+    "convert-affiliate-links": "./build/src/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "convert-affiliate-links": "tsc && node ./build/src/index.js"
+  },
+  "dependencies": {
+    "@types/cli-progress": "^3.7.0",
+    "@types/node-fetch": "^2.5.7",
+    "commander": "^6.0.0",
+    "husky": "^4.2.5",
+    "node-fetch": "^2.6.0",
+    "prettier": "2.0.5",
+    "pretty-quick": "^2.0.1",
+    "typescript": "^3.9.7",
+    "cli-progress": "^3.8.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "engines": {
+    "node": ">=12.10"
+  }
+}
