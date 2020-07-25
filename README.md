@@ -18,19 +18,24 @@ href="https://bookshop.org/a/[YOUR AFFILIATE ID]/[UPC]"
 
 ```bash
 yarn global add convert-affiliate-links
+```
+
+or
+
+```
 npm install -g convert-affiliate-links
 ```
 
 ## Example usage
 
 ```bash
-convert-links -r ~/word_press_export.xml -w word_press_import.xml
+convert-links -r ~/word_press_export.xml -w word_press_import.xml -a 12345
 ```
 
 ## Help
 
 ```bash
-% convert-affiliate-links --help
+% convert-affiliate-links -h
 yarn run v1.22.4
 $ tsc && node ./build/src/index.js --help
 Usage: convert-affiliate-links [options]
