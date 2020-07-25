@@ -1,6 +1,6 @@
 {
   "name": "convert-affiliate-links",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Script to convert Amazon to Bookshop.org affiliate links.",
   "repository": {
     "type": "git",
