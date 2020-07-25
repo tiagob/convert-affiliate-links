@@ -60,7 +60,7 @@ async function run() {
       console.log(`\n\nCouldn't find isbn: ${isbn10} upc: ${upc} on bookshop`);
       continue;
     }
-    content = content.replace(match[0], bookshopUrl);
+    content = content.replace(match[0], `href="${bookshopUrl}"`);
   }
   progressBar.stop();
 

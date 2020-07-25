@@ -7,7 +7,6 @@
     "url": "https://github.com/tiagob/convert-affiliate-links.git"
   },
   "license": "MIT",
-  "private": true,
   "bin": {
     "convert-affiliate-links": "./build/src/index.js"
   },
