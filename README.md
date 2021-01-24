@@ -28,8 +28,16 @@ npm install -g convert-affiliate-links
 
 ## Example usage
 
+### Amazon to Bookshop
+
 ```bash
-convert-links -r ~/word_press_export.xml -w word_press_import.xml -a 12345
+convert-affiliate-links -r ~/word_press_export.xml -w word_press_import.xml -a 12345
+```
+
+### Bookshop to Amazon
+
+```bash
+convert-affiliate-links -r ~/word_press_export.xml -w word_press_import.xml -c 12345 -s 12345 -p 12345
 ```
 
 ## Help
