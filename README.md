@@ -1,4 +1,4 @@
-# Amazon to Bookshop links
+# Convert affiliate links
 
 Script to convert Amazon to [Bookshop.org](https://bookshop.org/) affiliate links.
 
